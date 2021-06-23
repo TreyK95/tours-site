@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap");
+/* common styles */
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +32,8 @@ html {
   box-shadow: 0 1rem 3rem var(--grey-color);
   overflow: hidden;
 }
+/* end of common styles */
+/* header */
 .header {
   width: 100%;
   height: calc(100vh - 7rem);
@@ -141,3 +144,4 @@ html {
     opacity: 1;
   }
 }
+/* end of header */
